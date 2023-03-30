@@ -1,0 +1,22 @@
+html {
+    background-color: AntiqueWhite;
+    font-family: sans-serif;
+    padding: 15px;
+  }
+  
+  #maincontainer {
+    background-color: AntiqueWhite;
+  }
+  
+  .column {
+    float: left;
+    flex: 33.33%;
+    padding: 1px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
