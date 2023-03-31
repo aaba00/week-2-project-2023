@@ -8,3 +8,5 @@ $(document).ready(function() {
     randomNum = Math.floor(Math.random() * myPix.length);
   });
 });
+
+// how to make a comment in any language: command + slash
